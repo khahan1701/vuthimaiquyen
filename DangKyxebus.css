@@ -1,0 +1,129 @@
+body {
+    background-color: #f8f9fa;
+  }
+  .logoigc{
+    color: white;
+    background-color: #2a3b59;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  .logo{
+    left: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+  }
+  .header {
+    background-color: #003366; /* Màu xanh đậm */
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .header .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .header .logo img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .header .menu {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .header .menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+
+  .header .menu img {
+    height: 20px;
+    width: auto;
+    cursor: pointer;
+  }
+
+  .header .menu a:hover {
+    text-decoration: underline;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+.menu {
+    background-color: #002244;
+    padding: 15px;
+    text-align: center;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+.menu a:hover {
+    background-color: #0055aa;
+}
+  .container {
+    max-width: 600px;
+    margin-top: 50px;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .header h1 {
+    color: #007bff;
+  }
+  footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+  .footer {
+    background-color: #2a3b59;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: white;
+    background-color: #2a3b59;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.buttons a:hover {
+    background-color: #1d2a45;
+}

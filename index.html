@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Đăng Ký xe bus trường Sonadezi</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous" defer></script>
+    <link rel="stylesheet" href="DangKyxebus.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="logo">
+            <span>Thành viên của </span>
+            <img src="logo_ttc.png" alt="Logo">
+        </div>
+        <div class="menu">
+            <a href="#">Trang sinh viên</a>
+            <img src="flag-vn.png" alt="Vietnam Flag">
+            <img src="flag-uk.png" alt="English Flag">
+        </div>
+    </header>
+    <!-- Header -->
+    <header>
+        <h1>Đăng ký xe bus trường Sonadezi</h1>
+        <img src="logoTrS.png" alt="Logosonadezi" class="logo">
+    </header>
+    <div class="menu text-center">
+        <a href="https://sonadezi.edu.vn/tin-tuc-html0">Tin tức Sinh viên</a>
+        <a href="https://sonadezi.edu.vn/chuyen-muc-Thong-bao">Sinh viên</a>
+        <a href="https://sonadezi.edu.vn/xem-danh-muc-phong-ban-html101">Giáo viên</a>
+        <a href="https://sonadezi.edu.vn/danh-muc-phong-ban-html131">Chương trình đào tạo</a>
+        <a href="https://sonadezi.edu.vn/chuyen-muc-Thong-bao">Trang thông báo</a>
+    </div>
+
+    <!-- Biểu mẫu đăng ký -->
+    <div class="container bg-white p-4 shadow rounded">
+        <h2 class="text-center mb-4">Thông Tin Liên Lạc</h2>
+
+        <form id="registrationForm">
+            <div class="mb-3">
+                <label for="guardianName" class="form-label">Tên phụ huynh/người giám hộ</label>
+                <input type="text" class="form-control" id="guardianName" placeholder="Nhập tên" required>
+            </div>
+            <div class="mb-3">
+                <label for="idNumber" class="form-label">Số CCCD/CMND</label>
+                <input type="text" class="form-control" id="idNumber" placeholder="Nhập số CCCD/CMND" required>
+            </div>
+            <div class="mb-3">
+                <label for="issueDate" class="form-label">Ngày cấp</label>
+                <input type="date" class="form-control" id="issueDate" required>
+            </div>
+            <div class="mb-3">
+                <label for="issuePlace" class="form-label">Nơi cấp</label>
+                <input type="text" class="form-control" id="issuePlace" placeholder="Nhập nơi cấp" required>
+            </div>
+            <div class="mb-3">
+                <label for="address" class="form-label">Địa chỉ:</label>
+                <textarea class="form-control" id="address" rows="3" placeholder="Nhập địa chỉ" required></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label">E-mail:</label>
+                <input type="email" class="form-control" id="email" placeholder="Nhập email" required>
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="form-label">Số điện thoại:</label>
+                <input type="tel" class="form-control" id="phone" placeholder="Nhập số điện thoại" required>
+            </div>
+            <h3 class="text-center mb-4">Thông Tin Học Sinh</h3>
+            <div class="mb-3">
+                <label for="idNumber" class="form-label">Họ và Tên Học Sinh<b style="color: red;">*</b></label>
+                <input type="text" class="form-control" id="idNumber" required>
+            </div>
+            <div class="mb-3">
+                <label for="issueDate" class="form-label">Lớp<b style="color: red;">*</b></label>
+                <input type="diadiemdon" id="pickupLocation" name="pickupLocation">
+            </div>
+            <h3 class="text-center mb-4">Thông tin đưa đón <b style="color: red;">*</b></h3>
+            <div class="mb-3">
+                <label>Thời gian:</label>
+                <input type="radio" name="time" value="morning"> Buổi sáng
+                <input type="radio" name="time" value="afternoon"> Buổi chiều
+                <input type="radio" name="time" value="both"> Hai buổi
+            </div>
+            <div class="mb-3">
+                <label for="pickupLocation">Điểm đón/trả học sinh <b style="color: red;">*</b></label>
+                <input type="text" class="form-control" id="issuePlace" required>
+            </div>
+            <input type="checkbox" name="agree1" required> Tôi đã đọc và đồng ý tuân thủ theo quy định và nhắc nhở con
+            em mình thực hiện đúng nội quy nhà trường đã đưa ra.<br>
+            <input type="checkbox" name="agree2" required> Đồng ý nhận tin nhắn (thông báo giờ đến trường và rời trường
+            hàng ngày).<br>
+
+            <button type="submit" class="btn btn-primary w-100">Đăng ký</button>
+            <div class="buttons">
+                <a href="#">Quay lại</a>
+                <a href="https://www.sonadezi.edu.vn/">Tiếp theo</a>
+            </div>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>TRƯỜNG CAO ĐẲNG CÔNG NGHỆ VÀ QUẢN TRỊ SONADEZI</p>
+        <p>Địa chỉ: Số 01, Đường 6A, KCN Biên Hòa II, Đồng Nai.</p>
+        <p>Điện thoại: 0251.3994.011/012/013 | Email: info@sonadezi.edu.vn</p>
+        <p><a href="https://igc.edu.vn/policy/CSBaoMatThongTin.pdf">Chính sách bảo mật thông tin</a></p>
+
+        <div class="social-media">
+            <p>KẾT NỐI VỚI CHÚNG TÔI:</p>
+            <a href="https://www.facebook.com/truongsonadezi" target="_blank">Facebook</a>
+            <a href="https://www.youtube.com/@sonadezicollege" target="_blank">YouTube</a>
+            <a href="https://zalo.me/4329288955483380973" target="_blank">Zalo</a>
+        </div>
+        <footer>
+            <p>© 2024 - Được tạo bởi Vu Thi Mai Quyen</p>
+        </footer>
+
+        <script>
+            document.getElementById('registrationForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                alert('Đăng ký thành công!');
+            });
+        </script>
+</body>
+
+</html>
